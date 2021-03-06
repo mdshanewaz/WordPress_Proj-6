@@ -49,12 +49,6 @@
 /* page-title-bar-overlay-pattern-opacity 
 =========================*/
 .page .aux-overlay-bg-hash::before { opacity:0.5; }
-/* subfooter-bar-layout-bg-color 
-=========================*/
-.aux-subfooter-bar { background-color:#fafafa; }
-/* subfooter-bar-top-border-color 
-=========================*/
-.aux-subfooter-bar { border-top:1px solid #EAEAEA; }
 /* subfooter-layout-bg-image-position 
 =========================*/
 .aux-subfooter {background-position:center center;}
@@ -66,13 +60,13 @@
 .aux-subfooter {background-repeat:no-repeat;}
 /* subfooter-top-border-color 
 =========================*/
-.aux-subfooter { border-top:1px solid #EAEAEA; }
+.aux-subfooter { border-top:1px solid rgb(147, 142, 142); }
 /* site-footer-bg-color 
 =========================*/
 .aux-site-footer {background-color:#1A1A1A;}
 /* footer-top-border-color 
 =========================*/
-.aux-site-footer {border-top:1px solid #EAEAEA;}
+.aux-site-footer {border-top:1px solid rgb(5, 5, 5);}
 /* footer-top-border-width 
 =========================*/
 .aux-site-footer { border-top-width:1px; }
@@ -81,4 +75,19 @@
 .aux-logo-footer .aux-logo-anchor img { max-height:50px; }
 /* subfooter-layout-bg-color 
 =========================*/
-.aux-subfooter { background-color:rgb(142, 142, 142); }
+.aux-subfooter { background-color:rgb(117, 116, 116); }
+/* subfooter-widget-title-typography 
+=========================*/
+.aux-subfooter .aux-widget-area .widget-title{ font-family:'Poppins'; color:rgb(253, 247, 247); } 
+/* subfooter-widget-text-typography 
+=========================*/
+.aux-subfooter .aux-widget-area p{ font-family:'Poppins'; color:rgb(250, 250, 250); } 
+/* subfooter-widget-link-typography 
+=========================*/
+.aux-subfooter .aux-widget-area a{ font-family:'Poppins'; color:rgb(249, 249, 249); } 
+/* footer-copyright-typography 
+=========================*/
+.aux-copyright{ font-family:'Poppins'; } 
+/* header-main-menu-typography 
+=========================*/
+.site-header-section .aux-menu-depth-0 > .aux-item-content .aux-menu-label{ font-family:'Poppins'; } 
